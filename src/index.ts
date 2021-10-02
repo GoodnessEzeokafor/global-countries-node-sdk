@@ -72,5 +72,4 @@ export const getCountryCapital = (country: string) => {
   return capital ? capital : "Invalid country"
 }
 
-
 // hacktoberfest-accepted
