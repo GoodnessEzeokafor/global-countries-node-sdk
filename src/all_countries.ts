@@ -5,7 +5,7 @@ type TCountries = {
   isoCodes: string;
   flag: string;
 }
-const countries: TCountries[] = [
+export const countries: TCountries[] = [
   {
     country: 'afghanistan',
     capital: 'kabul',
