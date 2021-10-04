@@ -1,5 +1,4 @@
 import { countries as allCountries } from "./all_countries"
-
 /**
  * Call this function to get all the available countries
  * @returns all the countries

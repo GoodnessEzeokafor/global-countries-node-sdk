@@ -8,7 +8,10 @@ Nodejs sdk for getting all countries, their call codes, Alpha-2 code/ Alpha-3 co
 // Require the library
 const globalCountries = require('global-countries')
 ```
-
+```js
+const countries = globalCountries.countries()
+console.log(countries)
+```
 ```js
 // Get capital
 const country  = "IRAQ"
